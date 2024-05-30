@@ -3,15 +3,13 @@ import userData from "./userData.json";
 
 const App = () => {
   return (
-    <>
-      <Profile
-        username={userData.username}
-        tag={userData.tag}
-        location={userData.location}
-        avatar={userData.avatar}
-        stats={userData.stats}
-      />
-    </>
+    
+      const feedbackType = {
+    good: 0,
+    neutral: 0,
+    bad: 0
+  };
+   
   );
 };
 
