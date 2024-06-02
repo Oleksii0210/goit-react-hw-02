@@ -1,16 +1,15 @@
-import Profile from "./components/Profile/Profile";
-import userData from "./userData.json";
+import { useState, useEffect } from 'react';
+import Options from './components/Options';
+import Notification from './components/Notification';
+import Freedback from './components/Freedback';
+
 
 const App = () => {
-  return (
-    
-      const feedbackType = {
-    good: 0,
-    neutral: 0,
-    bad: 0
-  };
-   
-  );
+	const handleClick = () => {
+		alert("I'm a button!");
+	};
+
+	return <button onClick={handleClick}>Click me!</button>;
 };
 
-export default App;
+export default App

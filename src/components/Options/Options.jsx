@@ -1,4 +1,4 @@
-import css from './Options.module.css'
+import css from './Options.module.css';
 
 export default function Options({ updateFeedback, totalFeedback, handleReset }) {
 
@@ -10,4 +10,4 @@ export default function Options({ updateFeedback, totalFeedback, handleReset }) 
             {totalFeedback > 0 && (<button onClick={handleReset}>Reset</button>)}
         </div>
     );
-};
+}
