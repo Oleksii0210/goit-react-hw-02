@@ -3,6 +3,7 @@ import Options from "./components/Options/Options";
 import Notification from "./components/Notification/Notification";
 import Feedback from "./components/Feedback/Feedback";
 import Description from "./components/Description/Description";
+import "./App.css";
 
 const App = () => {
   const feedbackType = {
